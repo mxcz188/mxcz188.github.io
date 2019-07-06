@@ -21,7 +21,7 @@
 
   <style>
   :root{
-    --primary-color:#02007e;
+    --primary-color:#2a7efb;
     --secondary-color:#f9f9f9;
     --text-color:#636363;
     --text-color-dark:#242738;
@@ -100,7 +100,7 @@
       
       <li class="list-inline-item"><a class="text-dark" href="https://mxcz188.github.io/en/">En</a></li>
       
-      <li class="list-inline-item"><a class="text-dark" href="https://mxcz188.github.io/">zh</a></li>
+      <li class="list-inline-item"><a class="text-dark" href="https://mxcz188.github.io/">Zh</a></li>
       
     </ul>
   </div>
@@ -114,7 +114,6 @@
     <h1 class="text-white mb-3">Support Center &amp; Knowledge base</h1>
     <p class="text-white mb-4">Find advice and answers from our support team fast or get in touch</p>
         <div class="position-relative">
-        <input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms">
         
         <script>
             $(function() {
@@ -205,24 +204,6 @@
                 },
                 
             ];
-            $( "#search" ).autocomplete({
-                minLength: 0,
-                source: projects,
-                focus: function( event, ui ) {
-                    $( "#search" ).val( ui.item.label );
-                    return false;
-                },
-                select: function( event, ui ) {
-                    $( "#search" ).val( ui.item.label );
-                    $( "#project-id" ).val( ui.item.value );
-                    return false;
-                }
-            })
-            .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
-                return $( "<li>" )
-                .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.label + "</a>" )
-                .appendTo( ul );
-            };
             });
         </script>
         </div>
@@ -230,6 +211,7 @@
     </div>
 </div>
 <!-- /banner -->
+
         </header>
         <!-- /header -->
         
@@ -246,7 +228,7 @@
             
             <div class="col-lg-4 col-sm-6 mb-4">
               <a href="https://mxcz188.github.io/en/billing-pricing/" class="px-4 py-5 bg-white shadow text-center d-block">
-                <i class="ti-credit-card icon text-dark d-block mb-4"></i>
+                <i class="ti-credit-card icon text-primary d-block mb-4"></i>
                 <h3 class="mb-3">Billing &amp; Pricing</h3>
                 <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
               </a>
@@ -254,7 +236,7 @@
             
             <div class="col-lg-4 col-sm-6 mb-4">
               <a href="https://mxcz188.github.io/en/features/" class="px-4 py-5 bg-white shadow text-center d-block">
-                <i class="ti-package icon text-dark d-block mb-4"></i>
+                <i class="ti-package icon text-primary d-block mb-4"></i>
                 <h3 class="mb-3">Features</h3>
                 <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
               </a>
@@ -262,7 +244,7 @@
             
             <div class="col-lg-4 col-sm-6 mb-4">
               <a href="https://mxcz188.github.io/en/installation/" class="px-4 py-5 bg-white shadow text-center d-block">
-                <i class="ti-panel icon text-dark d-block mb-4"></i>
+                <i class="ti-panel icon text-primary d-block mb-4"></i>
                 <h3 class="mb-3">Installation</h3>
                 <p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
               </a>
