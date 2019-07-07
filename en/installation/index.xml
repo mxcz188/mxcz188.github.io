@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Installation on Dream Shop</title>
+    <title>Help on Dream Shop</title>
     <link>https://mxcz188.github.io/en/installation/</link>
-    <description>Recent content in Installation on Dream Shop</description>
+    <description>Recent content in Help on Dream Shop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>copyright © 梦诚科技 2019.</copyright>
@@ -23,7 +23,7 @@ Just download latest version of Hugo binary (&amp;gt; 0.53) for your OS (Windows
     </item>
     
     <item>
-      <title>Installation</title>
+      <title>Wechat Program</title>
       <link>https://mxcz188.github.io/en/installation/install/</link>
       <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
       
@@ -44,6 +44,16 @@ Alternatively, you can download the theme as .</description>
       <description>Global site parameters On top of Hugo global configuration, Doc-list lets you define the following parameters in your config.toml (here, values are default).
 Note that some of these parameters are explained in details in other sections of this documentation.
 [params] # Prefix URL to edit current page. # Useful to give opportunity to people to create merge request for your doc. # See the config.toml file from this documentation site to have an example.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://mxcz188.github.io/en/installation/introduction/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://mxcz188.github.io/en/installation/introduction/</guid>
+      <description>Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.
+Just download latest version of Hugo binary (&amp;gt; 0.53) for your OS (Windows, Linux, Mac) : it&amp;rsquo;s that simple.</description>
     </item>
     
     <item>

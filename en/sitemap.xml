@@ -48,6 +48,21 @@
   </url>
   
   <url>
+    <loc>https://mxcz188.github.io/en/installation/introduction/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mxcz188.github.io/installation/introduction/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mxcz188.github.io/en/installation/introduction/"
+                />
+  </url>
+  
+  <url>
     <loc>https://mxcz188.github.io/en/billing-pricing/</loc>
     <lastmod>2018-12-29T11:02:05+06:00</lastmod>
     <xhtml:link
@@ -124,21 +139,6 @@
   </url>
   
   <url>
-    <loc>https://mxcz188.github.io/en/billing-pricing/bill/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://mxcz188.github.io/billing-pricing/bill/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mxcz188.github.io/en/billing-pricing/bill/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mxcz188.github.io/en/installation/</loc>
     <lastmod>2018-12-29T11:02:05+06:00</lastmod>
     <xhtml:link
@@ -150,6 +150,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mxcz188.github.io/en/installation/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mxcz188.github.io/en/billing-pricing/bill/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mxcz188.github.io/billing-pricing/bill/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mxcz188.github.io/en/billing-pricing/bill/"
                 />
   </url>
   
@@ -313,6 +328,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mxcz188.github.io/en/elements/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mxcz188.github.io/en/product/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mxcz188.github.io/product/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mxcz188.github.io/en/product/"
                 />
   </url>
   

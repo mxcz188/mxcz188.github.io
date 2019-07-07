@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mxcz188.github.io/installation/introduction/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mxcz188.github.io/en/installation/introduction/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mxcz188.github.io/installation/introduction/"
+                />
+  </url>
+  
+  <url>
     <loc>https://mxcz188.github.io/installation/requirments/</loc>
     <lastmod>2018-12-29T11:02:05+06:00</lastmod>
     <xhtml:link
@@ -59,21 +74,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://mxcz188.github.io/billing-pricing/ownership/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://mxcz188.github.io/installation/customization/</loc>
-    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mxcz188.github.io/en/installation/customization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://mxcz188.github.io/installation/customization/"
                 />
   </url>
   
@@ -243,6 +243,21 @@
   </url>
   
   <url>
+    <loc>https://mxcz188.github.io/installation/customization/</loc>
+    <lastmod>2018-12-29T11:02:05+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mxcz188.github.io/en/installation/customization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mxcz188.github.io/installation/customization/"
+                />
+  </url>
+  
+  <url>
     <loc>https://mxcz188.github.io/</loc>
     <lastmod>2018-12-29T11:02:05+06:00</lastmod>
     <priority>0</priority>
@@ -303,20 +318,6 @@
   </url>
   
   <url>
-    <loc>https://mxcz188.github.io/faq/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mxcz188.github.io/en/faq/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://mxcz188.github.io/faq/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mxcz188.github.io/tags/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -328,6 +329,34 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://mxcz188.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mxcz188.github.io/product/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mxcz188.github.io/en/product/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mxcz188.github.io/product/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mxcz188.github.io/faq/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mxcz188.github.io/en/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mxcz188.github.io/faq/"
                 />
   </url>
   

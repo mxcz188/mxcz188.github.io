@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-cn"><head>
   <meta charset="utf-8">
-  <title>Elements</title>
+  <title>产品介绍</title>
 
   <meta name="generator" content="Hugo 0.55.1" />
 
@@ -101,84 +101,107 @@
         <!-- /navigation -->
         
         <div id="content">
-
-  <section class="elements pt-5 bg-gray">
+  <!-- page title -->
+  <section class="section bg-primary">
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-lg-8 mx-auto text-center">
+           <h1 class="text-white mb-4">微信小程序电商解决方案</h1> 
           
-
-<h3 id="alarts">Alarts</h3>
-
-<div class="alert rounded-0 alert-primary">
-  A simple primary alert—check it out!
-</div>
-
-<div class="alert rounded-0 alert-secondary">
-  A simple secondary alert—check it out!
-</div>
-
-<div class="alert rounded-0 alert-success">
-  A simple success alert—check it out!
-</div>
-
-<div class="alert rounded-0 alert-danger">
-  A simple danger alert—check it out!
-</div>
-
-<div class="alert rounded-0 alert-warning">
-  A simple warning alert—check it out!
-</div>
-
-<div class="alert rounded-0 alert-info">
-  A simple info alert—check it out!
-</div>
-
-<div class="alert rounded-0 alert-light">
-  A simple light alert—check it out!
-</div>
-
-<div class="alert rounded-0 alert-dark">
-  A simple dark alert—check it out!
-</div>
-
-<h3 id="syntax-highlight">Syntax Highlight</h3>
-
-<pre><code>&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
-  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-  &lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/main.css&quot;&gt;
-  &lt;link rel=&quot;shortcut icon&quot; type=&quot;image/png&quot; href=&quot;/assets/img/favicon.png&quot; &gt;
-  &lt;script src=&quot;/assets/js/main.js&quot;&gt;&lt;/script&gt;
-&lt;/head&gt;
-</code></pre>
-
-<h3 id="blockquote">Blockquote</h3>
-
-<blockquote>
-<p>This is a simple blockquote.</p>
-</blockquote>
-
-<h3 id="image">Image</h3>
-
-<p><img src="../../../../images/img-7.jpg" alt="image example" title="image" /></p>
-
-<h3 id="buttons">Buttons</h3>
-
-<p><button class="btn btn-primary">Primary Button</button>
-<button class="btn btn-secondary">secondary Button</button>
-<button class="btn btn-success">success Button</button>
-<button class="btn btn-info">info Button</button>
-<button class="btn btn-danger">danger Button</button>
-<button class="btn btn-warning">warning Button</button>
-<button class="btn btn-light">light Button</button>
-<button class="btn btn-dark">danger Button</button></p>
-
+            <!-- Javascript -->
+            <script>
+              $(function() {
+                var projects = [
+                  
+                ];
+                $( "#search" ).autocomplete({
+                    minLength: 0,
+                    source: projects,
+                    focus: function( event, ui ) {
+                      $( "#search" ).val( ui.item.label );
+                        return false;
+                    },
+                    select: function( event, ui ) {
+                      $( "#search" ).val( ui.item.label );
+                      $( "#project-id" ).val( ui.item.value );
+                      return false;
+                    }
+                })
+                .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+                  return $( "<li>" )
+                  .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.label + "</a>" )
+                  .appendTo( ul );
+                };
+              });
+            </script>
         </div>
       </div>
     </div>
   </section>
+  <!-- /page title -->
+  
+
+  <!-- topics -->
+  <section class="section bg-gray">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+              
+            </div>
+            <!-- topic-item -->
+            
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="px-4 py-5 bg-white shadow text-center d-block">
+                <i class="ti-shopping-cart-full icon text-primary d-block mb-4"></i>
+                <h3 class="mb-3">商城系统</h3>
+                <p class="mb-0">完善的商城系统助力企业运营</p>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="px-4 py-5 bg-white shadow text-center d-block">
+                <i class="ti-gift icon text-primary d-block mb-4"></i>
+                <h3 class="mb-3">营销系统</h3>
+                <p class="mb-0">多种营销玩法提高流量销量</p>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="px-4 py-5 bg-white shadow text-center d-block">
+                <i class="ti-sharethis icon text-primary d-block mb-4"></i>
+                <h3 class="mb-3">分销推广</h3>
+                <p class="mb-0">社群营销促进粉丝快速裂变</p>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="px-4 py-5 bg-white shadow text-center d-block">
+                <i class="ti-user icon text-primary d-block mb-4"></i>
+                <h3 class="mb-3">会员系统</h3>
+                <p class="mb-0">会员深度互动，建立信任关系，增加复购</p>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="px-4 py-5 bg-white shadow text-center d-block">
+                <i class="ti-bar-chart icon text-primary d-block mb-4"></i>
+                <h3 class="mb-3">数据分销</h3>
+                <p class="mb-0">全方位运营数据剖析，辅助经营决策</p>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="px-4 py-5 bg-white shadow text-center d-block">
+                <i class="ti-target icon text-primary d-block mb-4"></i>
+                <h3 class="mb-3">小程序商城</h3>
+                <p class="mb-0">助你轻松抢占微信新红利</p>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+  </section>
+  <!-- /topics -->
 
 
         </div><!-- footer -->

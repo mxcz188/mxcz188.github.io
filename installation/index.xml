@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>会员系统 on 梦诚微商城</title>
+    <title>帮助手册 on 梦诚微商城</title>
     <link>https://mxcz188.github.io/installation/</link>
-    <description>Recent content in 会员系统 on 梦诚微商城</description>
+    <description>Recent content in 帮助手册 on 梦诚微商城</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>copyright © 杭州梦诚科技有限公司 2019.</copyright>
@@ -13,7 +13,17 @@
     
     
     <item>
-      <title>Requirments</title>
+      <title>功能介绍</title>
+      <link>https://mxcz188.github.io/installation/introduction/</link>
+      <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
+      
+      <guid>https://mxcz188.github.io/installation/introduction/</guid>
+      <description>Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.
+Just download latest version of Hugo binary (&amp;gt; 0.53) for your OS (Windows, Linux, Mac) : it&amp;rsquo;s that simple.</description>
+    </item>
+    
+    <item>
+      <title>系统介绍</title>
       <link>https://mxcz188.github.io/installation/requirments/</link>
       <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
       
@@ -23,7 +33,7 @@ Just download latest version of Hugo binary (&amp;gt; 0.53) for your OS (Windows
     </item>
     
     <item>
-      <title>Installation</title>
+      <title>注册小程序</title>
       <link>https://mxcz188.github.io/installation/install/</link>
       <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
       
@@ -36,7 +46,7 @@ Alternatively, you can download the theme as .</description>
     </item>
     
     <item>
-      <title>Configuration</title>
+      <title>系统安装</title>
       <link>https://mxcz188.github.io/installation/configuration/</link>
       <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
       
@@ -47,7 +57,7 @@ Note that some of these parameters are explained in details in other sections of
     </item>
     
     <item>
-      <title>Customization</title>
+      <title>更新日志</title>
       <link>https://mxcz188.github.io/installation/customization/</link>
       <pubDate>Sat, 29 Dec 2018 11:02:05 +0600</pubDate>
       

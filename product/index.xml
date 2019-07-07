@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>常见问题 on 梦诚微商城</title>
-    <link>https://mxcz188.github.io/faq/</link>
-    <description>Recent content in 常见问题 on 梦诚微商城</description>
+    <title>产品介绍 on 梦诚微商城</title>
+    <link>https://mxcz188.github.io/product/</link>
+    <description>Recent content in 产品介绍 on 梦诚微商城</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>copyright © 杭州梦诚科技有限公司 2019.</copyright>
     
-	<atom:link href="https://mxcz188.github.io/faq/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mxcz188.github.io/product/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
